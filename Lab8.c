@@ -32,6 +32,7 @@ void Init_GPIO_PortF(void) {
 	GPIO_PORTF_CR_R = 0x04; // allow changes to PF2
 	GPIO_PORTF_AMSEL_R = 0x00; // disable analog function
 	GPIO_PORTF_PCTL_R = 0x00; // GPIO clear bit PCTL
+	GPIO_PORTF_DIR_R = 0x04; // PF2 output
 	GPIO_PORTF_AFSEL_R = 0x00; // no alternate function
 	GPIO_PORTF_PUR_R = 0x00; // no pullup resistors
 	GPIO_PORTF_DEN_R = 0x04; // enable digital pins PF2
