@@ -54,7 +54,7 @@ int main(void){ // Real Lab13
 	while(1){                
 		// sets then note by adjusting the fequency
 		// multply to get middle C as middle key
-		Sound_Tone(Piano_In() * 152672);
+		Sound_Tone(Piano_In());
   }
             
 }
